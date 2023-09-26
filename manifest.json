@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "auto_quotation",
+    "version": "1.0",
+    "description": "Display a banner bellow the address bar",
+    "content_scripts": [
+        {
+          "matches": ["<all_urls>"], 
+          "js": ["script.js"]
+        }
+      ]
+}
