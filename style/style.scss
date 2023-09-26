@@ -1,0 +1,29 @@
+body{
+    width: 200px;
+    height: 400px;
+  }
+.label{
+  font-size: 30px;
+}
+input[type=checkbox]{
+  transform: scale(1.5);
+  margin-right: 12px;
+}
+
+#list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3列の等間隔な幅 */
+  gap: 10px; /* 要素間の間隔を設定 */
+}
+
+/* テンプレート内のスタイルを変更して要素をカスタマイズ */
+.display {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+/* チェックボックスを中央配置 */
+input[type="checkbox"] {
+  margin: 0 auto;
+}
